@@ -1,5 +1,5 @@
 {
-  "name": "whitelist-manager",
+  "name": "yet-another-whitelist-manager",
   "productName": "Yet Another Whitelist Manager",
   "description": "Browser extension that automatically blocks all pages from any website that is not in your list of allowed websites.",
   "version": "3.0.0",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url":  "https://github.com/sarangak/yet-another-whitelist-manager"
+    "url": "https://github.com/sarangak/yet-another-whitelist-manager"
   },
   "analytics": {
     "code": "UA-168095132-1"
@@ -33,9 +33,9 @@
     "build:firefox": "webpack --config webpack.config.firefox.min.js",
     "build:opera": "webpack --config webpack.config.opera.min.js",
     "build": "npm run clean && npm-run-all --parallel build:*",
-    "package:chrome": "cd dist/chrome/ && zip -r ../whitelist-manager-chrome.zip *",
-    "package:firefox": "cd dist/firefox/ && zip -r ../whitelist-manager-firefox.xpi *",
-    "package:opera": "cd dist/opera/ && zip -r ../whitelist-manager-opera.zip *",
+    "package:chrome": "cd dist/chrome/ && zip -r ../yet-another-whitelist-manager-chrome.zip *",
+    "package:firefox": "cd dist/firefox/ && zip -r ../yet-another-whitelist-manager-firefox.xpi *",
+    "package:opera": "cd dist/opera/ && zip -r ../yet-another-whitelist-manager-opera.zip *",
     "package": "npm run build && npm-run-all --parallel package:*",
     "postinstall": "bower install"
   },
