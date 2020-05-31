@@ -1,21 +1,19 @@
 {
   "name": "whitelist-manager",
-  "productName": "Whitelist Manager",
+  "productName": "Yet Another Whitelist Manager",
   "description": "Browser extension that automatically blocks all pages from any website that is not in your list of allowed websites.",
-  "version": "2.4.0",
+  "version": "3.0.0",
   "license": "GPL-3.0",
   "private": true,
   "author": {
-    "name": "Daniel Perez Alvarez",
-    "email": "unindented@gmail.com",
-    "url": "http://unindented.org/"
+    "name": "Saranga Komanduri"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/unindented/whitelist-manager.git"
+    "url":  "https://github.com/sarangak/yet-another-whitelist-manager"
   },
   "analytics": {
-    "code": "UA-19115491-3"
+    "code": "UA-168095132-1"
   },
   "scripts": {
     "clean:coverage": "rimraf coverage/",

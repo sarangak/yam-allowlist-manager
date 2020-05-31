@@ -3,7 +3,7 @@
     "message": "en"
   },
   "ext_name": {
-    "message": "Whitelist Manager"
+    "message": "Yet Another Whitelist Manager"
   },
   "ext_description": {
     "message": "Automatically blocks all pages from any website that is not in your list of allowed websites."
@@ -14,7 +14,7 @@
   },
 
   "msg_blocked_page_label": {
-    "message": "Whitelist Manager has prevented the following page from loading:"
+    "message": "Yet Another Whitelist Manager has prevented the following page from loading:"
   },
   "msg_blocked_instructions_label": {
     "message": "If you wish to view pages from $HOSTNAME$, please add it to your list of allowed websites.",

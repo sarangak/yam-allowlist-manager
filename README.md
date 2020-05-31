@@ -1,11 +1,6 @@
-![Whitelist Manager](src/assets/promo_1400.png)
-
-# Whitelist Manager [![Build Status](https://img.shields.io/travis/unindented/whitelist-manager.svg)](http://travis-ci.org/unindented/whitelist-manager) [![Dependency Status](https://img.shields.io/gemnasium/unindented/whitelist-manager.svg)](https://gemnasium.com/unindented/whitelist-manager) [![Coverage Status](https://img.shields.io/coveralls/unindented/whitelist-manager.svg)](https://coveralls.io/r/unindented/whitelist-manager)
+# Yet Another Whitelist Manager
 
 Automatically blocks all pages from any website that is not in your list of allowed websites.
-
-![Right-click on an image...](src/assets/screenshot_small_1.png) ![And get your palette of colors!](src/assets/screenshot_small_2.png)
-
 
 ## Description
 
@@ -19,25 +14,19 @@ When adding a website to your _whitelist_, consider the following:
   * If you only specify the domain of the website, its subdomains will also be allowed. That is, if you add _google.com_, you WILL be able to access _mail.google.com_, _maps.google.com_, etc.
   * If you specify both the domain and the subdomain of the website, only that subdomain will be allowed. That is, if you add _www.google.com_, you WILL NOT be able to access _mail.google.com_, _maps.google.com_, etc.
 
-PS: When installing _Whitelist Manager_, your browser will warn you that this extension can access your data on all sites, and your browsing history. These permissions are required to block pages when you are browsing. No information is stored on your computer and no personal data is obtained from this extension. I promise!
+PS: When installing _Yet Another Whitelist Manager_, your browser will warn you that this extension can access your data on all sites, and your browsing history. These permissions are required to block pages when you are browsing. No information is stored on your computer and no personal data is obtained from this extension. I promise!
 
 
 ## Install
 
-Go to the [Whitelist Manager home page](https://chrome.google.com/extensions/detail/pocjkchlmhkjafdpmkklknmjhokobgmh) and hit the _Install_ button.
+Go to the [Yet Another Whitelist Manager home page](https://chrome.google.com/extensions/detail/TBD) and hit the _Install_ button.
 
-
-## Meta
-
-* Code: `git clone git://github.com/unindented/whitelist-manager.git`
-* Home: <https://chrome.google.com/extensions/detail/pocjkchlmhkjafdpmkklknmjhokobgmh>
 
 
 ## Contributors
 
 * Daniel Perez Alvarez ([unindented@gmail.com](mailto:unindented@gmail.com))
 * David Moreno Gomez ([dmgomez@gmail.com](mailto:dmgomez@gmail.com))
-
 
 ## License
 
