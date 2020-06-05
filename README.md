@@ -1,6 +1,10 @@
+![YAM Banner](src/assets/promo-440.png)
+
 # YAM Allowlist Manager
 
 Automatically blocks all pages from any website that is not in your list of allowed websites.
+
+![Right-click on an image...](src/assets/screenshot_chrome_1.png) ![And get your palette of colors!](src/assets/screenshot_chrome_2.png)
 
 ## Description
 
