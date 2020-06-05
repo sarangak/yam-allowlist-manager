@@ -25,6 +25,8 @@ Go to the [YAM Allowlist Manager home page](https://chrome.google.com/extensions
 
 ## Contributors
 
+This project originally forked from [whitelist-manager](https://github.com/unindented/whitelist-manager).  I created this fork due to [privacy concerns](https://github.com/unindented/whitelist-manager/issues/225) after the original extension was sold to a third party.
+
 * Daniel Perez Alvarez ([unindented@gmail.com](mailto:unindented@gmail.com))
 * David Moreno Gomez ([dmgomez@gmail.com](mailto:dmgomez@gmail.com))
 
