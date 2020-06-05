@@ -1,22 +1,26 @@
-import React from 'react'
-import {render} from 'react-dom'
-import Options from 'components/options'
-import {trackView, trackTiming, trackException} from 'utils/analytics'
+import React from "react";
+import { render } from "react-dom";
+import Options from "components/options";
+import { trackView, trackTiming, trackException } from "utils/analytics";
 
-import _template from './options.html'
+import _template from "./options.html";
 
 const init = () => {
-  render(<Options />, document.querySelector('#container'))
+  render(<Options />, document.querySelector("#container"));
 
-  trackView()
-  trackTiming('Options', 'Load', Date.now() - window.performance.timing.navigationStart)
-}
+  trackView();
+  trackTiming(
+    "Options",
+    "Load",
+    Date.now() - window.performance.timing.navigationStart
+  );
+};
 
 const error = (e) => {
-  trackException(e.error)
-}
+  trackException(e.error);
+};
 
 /* ************************************************************************** */
 
-window.addEventListener('load', init, true)
-window.addEventListener('error', error, true)
+window.addEventListener("load", init, true);
+window.addEventListener("error", error, true);

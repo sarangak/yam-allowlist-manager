@@ -1,61 +1,59 @@
-import React, {Component, PropTypes, cloneElement} from 'react'
-import {Header, Icon, Navigation, Content, Card, CardText} from 'react-mdl'
-import {autobind} from 'core-decorators'
-import AboutDialog from 'components/about-dialog'
-import {t} from 'utils/i18n'
-import {trackEvent} from 'utils/analytics'
+import React, { Component, PropTypes, cloneElement } from "react";
+import { Header, Icon, Navigation, Content, Card, CardText } from "react-mdl";
+import { autobind } from "core-decorators";
+import AboutDialog from "components/about-dialog";
+import { t } from "utils/i18n";
+import { trackEvent } from "utils/analytics";
 
-import _styles from './index.scss'
+import _styles from "./index.scss";
 
 export default class Layout extends Component {
   static propTypes = {
     location: PropTypes.any,
     children: PropTypes.oneOfType([
       PropTypes.element,
-      PropTypes.arrayOf(PropTypes.element)
-    ])
-  }
+      PropTypes.arrayOf(PropTypes.element),
+    ]),
+  };
 
-  state = {}
-
-  @autobind
-  handleAboutClick () {
-    trackEvent('About', 'Open')
-
-    this.setState({about: true})
-  }
+  state = {};
 
   @autobind
-  handleAboutClose () {
-    trackEvent('About', 'Close')
+  handleAboutClick() {
+    trackEvent("About", "Open");
 
-    this.setState({about: false})
+    this.setState({ about: true });
   }
 
-  render () {
-    const {location, children} = this.props
-    const {about} = this.state
-    const {details} = location.query
-    const childProps = details != null ? JSON.parse(atob(details)) : {}
+  @autobind
+  handleAboutClose() {
+    trackEvent("About", "Close");
 
-    const showAbout = !!about
+    this.setState({ about: false });
+  }
+
+  render() {
+    const { location, children } = this.props;
+    const { about } = this.state;
+    const { details } = location.query;
+    const childProps = details != null ? JSON.parse(atob(details)) : {};
+
+    const showAbout = !!about;
 
     const title = (
       <span>
-        <Icon name='lock' />
-        {t('ext_name')}
+        <Icon name="lock" />
+        {t("ext_name")}
       </span>
-    )
+    );
 
     return (
-      <div className='app-layout'>
-        <div className='app-layout__container'>
+      <div className="app-layout">
+        <div className="app-layout__container">
           <Header title={title}>
             <Navigation>
-              <a href='#'
-                onClick={this.handleAboutClick}
-              >
-                {t('msg_header_about')}
+              <a href="#" onClick={this.handleAboutClick}>
+                {t("msg_header_about")}
               </a>
             </Navigation>
           </Header>
@@ -69,11 +67,8 @@ export default class Layout extends Component {
           </Content>
         </div>
 
-        <AboutDialog
-          open={showAbout}
-          onClose={this.handleAboutClose}
-        />
+        <AboutDialog open={showAbout} onClose={this.handleAboutClose} />
       </div>
-    )
+    );
   }
 }

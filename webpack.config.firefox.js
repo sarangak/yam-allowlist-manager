@@ -1,5 +1,5 @@
-'use strict'
+"use strict";
 
-var webpackConfig = require('./webpack.config.factory')
+var webpackConfig = require("./webpack.config.factory");
 
-module.exports = webpackConfig({platform: 'firefox'})
+module.exports = webpackConfig({ platform: "firefox" });

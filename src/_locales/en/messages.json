@@ -3,7 +3,7 @@
     "message": "en"
   },
   "ext_name": {
-    "message": "Yet Another Whitelist Manager"
+    "message": "YAM Allowlist Manager"
   },
   "ext_description": {
     "message": "Automatically blocks all pages from any website that is not in your list of allowed websites."
@@ -14,7 +14,7 @@
   },
 
   "msg_blocked_page_label": {
-    "message": "Yet Another Whitelist Manager has prevented the following page from loading:"
+    "message": "YAM Allowlist Manager has prevented the following page from loading:"
   },
   "msg_blocked_instructions_label": {
     "message": "If you wish to view pages from $HOSTNAME$, please add it to your list of allowed websites.",
@@ -41,7 +41,7 @@
   "msg_options_block_others_label": {
     "message": "Block other resources (images, scripts, etc.) from websites not in my list"
   },
-  "msg_options_whitelist_label": {
+  "msg_options_allowlist_label": {
     "message": "List of allowed websites"
   },
   "msg_options_analytics_label": {

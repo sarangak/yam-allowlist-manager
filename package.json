@@ -1,8 +1,8 @@
 {
-  "name": "yet-another-whitelist-manager",
-  "productName": "Yet Another Whitelist Manager",
+  "name": "yam-allowlist-manager",
+  "productName": "YAM Allowlist Manager",
   "description": "Browser extension that automatically blocks all pages from any website that is not in your list of allowed websites.",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "license": "GPL-3.0",
   "private": true,
   "author": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sarangak/yet-another-whitelist-manager"
+    "url": "https://github.com/sarangak/yam-allowlist-manager"
   },
   "analytics": {
     "code": "UA-168095132-1"
@@ -33,9 +33,9 @@
     "build:firefox": "webpack --config webpack.config.firefox.min.js",
     "build:opera": "webpack --config webpack.config.opera.min.js",
     "build": "npm run clean && npm-run-all --parallel build:*",
-    "package:chrome": "cd dist/chrome/ && zip -r ../yet-another-whitelist-manager-chrome.zip *",
-    "package:firefox": "cd dist/firefox/ && zip -r ../yet-another-whitelist-manager-firefox.xpi *",
-    "package:opera": "cd dist/opera/ && zip -r ../yet-another-whitelist-manager-opera.zip *",
+    "package:chrome": "cd dist/chrome/ && zip -r ../yam-allowlist-manager-chrome.zip *",
+    "package:firefox": "cd dist/firefox/ && zip -r ../yam-allowlist-manager-firefox.xpi *",
+    "package:opera": "cd dist/opera/ && zip -r ../yam-allowlist-manager-opera.zip *",
     "package": "npm run build && npm-run-all --parallel package:*",
     "postinstall": "bower install"
   },

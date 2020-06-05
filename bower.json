@@ -1,5 +1,5 @@
 {
-  "name": "yet-another-whitelist-manager",
+  "name": "yam-allowlist-manager",
   "description": "Browser extension that automatically blocks all pages from any website that is not in your list of allowed websites.",
   "license": "GPL-3.0",
   "private": true,

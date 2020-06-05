@@ -1,2 +1,1 @@
-describe('Analytics', function () {
-})
+describe("Analytics", function () {});
