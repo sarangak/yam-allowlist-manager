@@ -2,7 +2,7 @@
 
 # YAM Allowlist Manager
 
-Automatically blocks all pages from any website that is not in your list of allowed websites.
+Automatically blocks all pages from any website that is not in your list of allowed websites.  
 
 ![Right-click on an image...](src/assets/screenshot_chrome_1.png) ![And get your palette of colors!](src/assets/screenshot_chrome_2.png)
 
@@ -11,6 +11,8 @@ Automatically blocks all pages from any website that is not in your list of allo
 Do you have small children, and need to limit the pages they visit to a few known safe websites? Or maybe you just want to concentrate and eliminate all distractions? Then this extension is for you!
 
 Create your own _allowlist_ of safe websites, and this extension will automatically block all pages from any other website that is not in that list.
+
+In Chrome, the _allowlist_ will synchronize across multiple devices.
 
 When adding a website to your _allowlist_, consider the following:
 
@@ -24,8 +26,6 @@ PS: When installing _YAM Allowlist Manager_, your browser will warn you that thi
 ## Install
 
 Go to the [YAM Allowlist Manager home page](https://chrome.google.com/extensions/detail/aeepebmcdnjkjobnhfagojgfonkappej) and hit the _Install_ button.
-
-
 
 ## Contributors
 
