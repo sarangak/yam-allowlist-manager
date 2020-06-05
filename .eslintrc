@@ -1,5 +1,6 @@
 {
-  "extends": ["standard", "standard-react"],
+  "plugins": ["react"],
+  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:prettier/recommended"],
   "parser": "babel-eslint",
   "rules": {
     "no-unused-vars": [2, {
@@ -10,6 +11,9 @@
   },
   "env": {
     "browser": true,
-    "jasmine": true
+    "jasmine": true,
+    "es6": true,
+    "commonjs": true,
+    "node": true
   }
 }

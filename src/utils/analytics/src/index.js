@@ -7,7 +7,9 @@ let tracker = null;
 try {
   service = getService(pkg.name);
   tracker = service.getTracker(pkg.analytics.code);
-} catch (e) {}
+} catch (e) {
+  // Continue regardless of error
+}
 
 export function getConfig(callback) {
   service && service.getConfig().addCallback(callback);

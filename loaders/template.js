@@ -1,8 +1,8 @@
-var template = require('lodash/template')
-var pkg = require('../package.json')
+var template = require("lodash/template");
+var pkg = require("../package.json");
 
 module.exports = function (source) {
-  this.cacheable()
+  this.cacheable();
 
-  return template(source.toString())(pkg)
-}
+  return template(source.toString())(pkg);
+};
