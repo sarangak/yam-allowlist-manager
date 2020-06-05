@@ -19,7 +19,7 @@ PS: When installing _Yet Another Whitelist Manager_, your browser will warn you 
 
 ## Install
 
-Go to the [Yet Another Whitelist Manager home page](https://chrome.google.com/extensions/detail/TBD) and hit the _Install_ button.
+Go to the [Yet Another Whitelist Manager home page](https://chrome.google.com/extensions/detail/aeepebmcdnjkjobnhfagojgfonkappej) and hit the _Install_ button.
 
 
 
